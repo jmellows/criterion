@@ -1,0 +1,37 @@
+html, body {
+    width:100%;
+    height:96.6%;
+    position:relative;   
+    padding:0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+section {
+	width:100%;
+    height:100%;
+    position:relative;   
+    padding:0px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+header {
+	height:100%;
+	width: 100%;
+    background-color:#eee;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+#scrolllogo {
+	margin-top: 500px;
+}
+
