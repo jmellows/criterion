@@ -1,24 +1,10 @@
-Template.header.rendered = function () {
-	$('#nav').affix({
-		offset: {
-			top: $('header').height()
-		}
-	});
+Template.index.rendered = function () {
+	$('#fullpage').fullpage({
+    anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
+    menu: '#menu'
+});
 
-	$('#scrolllogo a').on('click', function() {
-		
-		
-		var scrollAnchor = $(this).attr('data-scroll'),
-		scrollPoint = $('section[data-anchor="' + scrollAnchor + '"]').offset().top - 28;
-
-		$('body,html').animate({
-			scrollTop: scrollPoint
-		},700);
-		
-		$("ul").show("slow");
-		
-		return false;
-		
-		
-	});
+	/*$("#landnlogo").click(function(){
+		$("#nav").addClass("navbar-fixed-top");
+	});*/
 };
