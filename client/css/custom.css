@@ -1,3 +1,15 @@
 body {
 	background-image: url("/img/12_col.gif");
 }
+
+h1{
+	text-align: center;
+}
+
+#menu1 {
+	margin-left: 597px;
+}
+
+#menu2 {
+	margin-right: 260px;
+}
